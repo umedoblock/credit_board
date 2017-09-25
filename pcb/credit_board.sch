@@ -1,13 +1,12 @@
 EESchema Schematic File Version 2
+LIBS:credit_board-rescue
 LIBS:74xgxx
 LIBS:74xx
 LIBS:Altera
 LIBS:ESD_Protection
-LIBS:LEM
 LIBS:Lattice
 LIBS:Oscillators
 LIBS:Power_Management
-LIBS:RFSolutions
 LIBS:Worldsemi
 LIBS:Xicor
 LIBS:Zilog
@@ -21,7 +20,6 @@ LIBS:atmel
 LIBS:audio
 LIBS:battery_management
 LIBS:bbd
-LIBS:bosch
 LIBS:brooktre
 LIBS:cmos4000
 LIBS:cmos_ieee
@@ -33,21 +31,15 @@ LIBS:device
 LIBS:digital-audio
 LIBS:diode
 LIBS:display
-LIBS:driver_gate
 LIBS:dsp
 LIBS:elec-unifil
 LIBS:ftdi
 LIBS:gennum
-LIBS:graphic_symbols
 LIBS:hc11
-LIBS:infineon
 LIBS:intel
 LIBS:interface
-LIBS:intersil
 LIBS:ir
-LIBS:leds
 LIBS:linear
-LIBS:logic_programmable
 LIBS:maxim
 LIBS:mechanical
 LIBS:memory
@@ -57,16 +49,13 @@ LIBS:microchip_pic10mcu
 LIBS:microchip_pic12mcu
 LIBS:microchip_pic16mcu
 LIBS:microchip_pic18mcu
-LIBS:microchip_pic24mcu
 LIBS:microchip_pic32mcu
 LIBS:microcontrollers
-LIBS:modules
 LIBS:motor_drivers
 LIBS:motorola
 LIBS:motors
 LIBS:msp430
 LIBS:nordicsemi
-LIBS:nxp
 LIBS:nxp_armmcu
 LIBS:onsemi
 LIBS:opto
@@ -88,7 +77,6 @@ LIBS:switches
 LIBS:texas
 LIBS:transf
 LIBS:transistors
-LIBS:triac_thyristor
 LIBS:ttl_ieee
 LIBS:valves
 LIBS:video
@@ -251,7 +239,7 @@ F 3 "" H 2600 3250 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 74HC04 U1
+L 74HC04-RESCUE-credit_board U1
 U 1 1 59C5818C
 P 4950 4350
 F 0 "U1" H 5100 4450 50  0000 C CNN
@@ -262,7 +250,7 @@ F 3 "" H 4950 4350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U1
+L 74HC04-RESCUE-credit_board U1
 U 5 1 59C581BD
 P 5950 1700
 F 0 "U1" H 6100 1800 50  0000 C CNN
@@ -273,7 +261,7 @@ F 3 "" H 5950 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U1
+L 74HC04-RESCUE-credit_board U1
 U 6 1 59C58206
 P 4900 1700
 F 0 "U1" H 5050 1800 50  0000 C CNN
@@ -284,7 +272,7 @@ F 3 "" H 4900 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U1
+L 74HC04-RESCUE-credit_board U1
 U 2 1 59C58651
 P 6550 4350
 F 0 "U1" H 6700 4450 50  0000 C CNN
@@ -295,7 +283,7 @@ F 3 "" H 6550 4350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U1
+L 74HC04-RESCUE-credit_board U1
 U 3 1 59C5869C
 P 7550 4350
 F 0 "U1" H 7700 4450 50  0000 C CNN
@@ -306,7 +294,7 @@ F 3 "" H 7550 4350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U1
+L 74HC04-RESCUE-credit_board U1
 U 4 1 59C586F5
 P 6950 1700
 F 0 "U1" H 7100 1800 50  0000 C CNN
@@ -322,7 +310,7 @@ U 1 1 59C5A8B5
 P 6450 2050
 F 0 "J2" H 6450 2250 50  0000 C CNN
 F 1 "amp or pull-up" V 6350 2050 50  0000 C CNN
-F 2 "PINHEADER:PINHEADER_1x3" H 6450 2050 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 6450 2050 50  0001 C CNN
 F 3 "" H 6450 2050 50  0001 C CNN
 	1    6450 2050
 	0    -1   -1   0   
@@ -339,7 +327,7 @@ F 3 "" H 3250 3010 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U1
+L 74HC04-RESCUE-credit_board U1
 U 7 1 59C5C494
 P 3600 3050
 F 0 "U1" H 3600 3100 50  0000 C CNN
@@ -366,7 +354,7 @@ U 1 1 59C64016
 P 6550 1450
 F 0 "R5" V 6550 1450 50  0000 C CNN
 F 1 "10k" V 6450 1450 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 6480 1450 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 6480 1450 50  0001 C CNN
 F 3 "" H 6550 1450 50  0001 C CNN
 	1    6550 1450
 	-1   0    0    1   
@@ -377,7 +365,7 @@ U 1 1 59C64DCF
 P 6150 4050
 F 0 "R4" V 6150 4050 50  0000 C CNN
 F 1 "10k" V 6250 4050 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 6080 4050 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 6080 4050 50  0001 C CNN
 F 3 "" H 6150 4050 50  0001 C CNN
 	1    6150 4050
 	-1   0    0    1   
@@ -388,7 +376,7 @@ U 1 1 59C654ED
 P 7150 4050
 F 0 "R6" V 7150 4050 50  0000 C CNN
 F 1 "10k" V 7050 4050 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 7080 4050 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 7080 4050 50  0001 C CNN
 F 3 "" H 7150 4050 50  0001 C CNN
 	1    7150 4050
 	-1   0    0    1   
@@ -414,7 +402,7 @@ U 1 1 59C8F8E7
 P 6050 5500
 F 0 "J1" H 6150 5700 50  0000 C CNN
 F 1 "amp or pull-up" V 6000 5500 50  0000 C CNN
-F 2 "PINHEADER:PINHEADER_1x3" H 6050 5500 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 6050 5500 50  0001 C CNN
 F 3 "" H 6050 5500 50  0001 C CNN
 	1    6050 5500
 	0    -1   -1   0   
@@ -425,7 +413,7 @@ U 1 1 59C8FF50
 P 7050 5500
 F 0 "J4" H 7150 5700 50  0000 C CNN
 F 1 "amp or pull-up" V 7000 5500 50  0000 C CNN
-F 2 "PINHEADER:PINHEADER_1x3" H 7050 5500 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 7050 5500 50  0001 C CNN
 F 3 "" H 7050 5500 50  0001 C CNN
 	1    7050 5500
 	0    -1   -1   0   
@@ -572,7 +560,7 @@ U 1 1 59C90DB1
 P 7950 4050
 F 0 "J6" H 7950 4100 50  0000 C CNN
 F 1 "clk" H 7900 4000 50  0000 C CNN
-F 2 "PINHEADER:PINHEADER_1x1" H 7950 4050 50  0001 C CNN
+F 2 "Connectors:Pin_d1.0mm_L10.0mm" H 7950 4050 50  0001 C CNN
 F 3 "" H 7950 4050 50  0001 C CNN
 	1    7950 4050
 	0    -1   1    0   
@@ -587,7 +575,7 @@ U 1 1 59C910EC
 P 7350 1400
 F 0 "J5" H 7350 1450 50  0000 C CNN
 F 1 "clk" H 7300 1350 50  0000 C CNN
-F 2 "PINHEADER:PINHEADER_1x1" H 7350 1400 50  0001 C CNN
+F 2 "Connectors:Pin_d1.0mm_L10.0mm" H 7350 1400 50  0001 C CNN
 F 3 "" H 7350 1400 50  0001 C CNN
 	1    7350 1400
 	0    -1   1    0   
